@@ -10,9 +10,9 @@ Project includes:
 //Creating a flower object that holds the size variables used throughout the code
 var flwr = {
 	w: 300,
-  x: 250,
+	x: 250,
 	y: 100,
-  z: 200
+	z: 200
 }
 
 //variables to be used for the bee
@@ -95,7 +95,7 @@ if (mouseX >= beeX && mouseY >= beeY) { //if the location of the mouse is on the
 }
 
 	//creating the Seeds constructor function Remember the keyword "this" references the implied object function
-	function Seed() {
+function Seed() {
 	this.x = random(230, 270);
 	this.y = random(230, 270);
 
